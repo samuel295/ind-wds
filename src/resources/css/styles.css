@@ -1,23 +1,21 @@
 * {
-    block-size: content-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: Roboto, sans-serif;
 }
 
 #colorsContainer {
-    border: 1px black dotted;
-    padding: 0 auto;
+    border: 1px black solid;
 }
 
 .color {
     display: inline-block;
-    border: 1px black dotted;
-    padding: 0 auto;
     border: 1px black;
     width: 200px;
-    height: 100px;
+    height: 80px;
     font-size: 14px;
-    border: 1px black;
     text-align: center;
+    margin: 5px;
 }
 
 #blue {
