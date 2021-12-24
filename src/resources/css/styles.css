@@ -31,14 +31,28 @@
   * {
     box-sizing: border-box; 
 }
-
-/* Colors section */
-
-#colorsContainer {
+.container {
     border: 2px black solid;
     margin: 10px 0;
     padding: 10px;
 }
+
+h1 {
+    font-size: 32px;
+    font-weight: 800;
+    font-family: 'Open Sans';
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 14px;
+    font-family: 'Roboto';
+}
+
+/* Colors section */
 
 .color {
     display: inline-block;
@@ -64,11 +78,6 @@
 }
 
 /* Fonts section */
-#fontsContainer {
-    border: 2px black solid;
-    margin: 10px 0;
-    padding: 10px;
-}
 
 .sentence {
     display: inline-block;
@@ -100,3 +109,5 @@
 .italic {
     font-style: italic;
 }
+
+/* Text Style section */
