@@ -1,0 +1,35 @@
+* {
+    block-size: content-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#colorsContainer {
+    border: 1px black dotted;
+    padding: 0 auto;
+}
+
+.color {
+    display: inline-block;
+    border: 1px black dotted;
+    padding: 0 auto;
+    border: 1px black;
+    width: 200px;
+    height: 100px;
+    font-size: 14px;
+    border: 1px black;
+    text-align: center;
+}
+
+#blue {
+    background-color: #6bd8f0;
+    color: white;
+}
+#green {
+    background-color: #95d89f;
+}
+#red {
+    background-color: #bf3a1c;
+}
+#yellow {
+    background-color: #bf3a1c;
+}
